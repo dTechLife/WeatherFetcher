@@ -29,7 +29,8 @@ class App extends React.Component{
     if (city && country){
     console.log(data);
     this.setState({
-      temperature: data.main.temp - 273.15,
+      temperature: Math.round(data.main.temp - 273.15),
+      
       city:data.name,
       country:data.sys.country,
       humidity:data.main.humidity,
@@ -38,6 +39,7 @@ class App extends React.Component{
     });
   }
 
+  
   else{
     this.setState({
       temperature:undefined,

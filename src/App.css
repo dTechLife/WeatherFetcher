@@ -36,11 +36,12 @@ html, body{
   background-color:rgb(32 32 48) ;
   padding:15px;
   font-size:140%;
+  
 
 
 }
 input{
-    background-color:rgb(46 107 149);
+  background-color:rgb(46 107 149);
 }
 .button{
   font-size:100%;
@@ -50,16 +51,22 @@ input{
 .form-container{
   text-align:center;
 }
-
+button{
+  margin:10px;
+}
 .title-container{
   font-family: 'Montserrat', sans-serif;
   min-height: 100px;
-color:rgb(212 245 245);
+  color:rgb(212 245 245);
   padding-left: 30px;
   margin-bottom: 5px;
   grid-row: 1;
   grid-column:1/5;
   background-color:rgb(46 107 149);
+  
+}
+.queryText{
+  font-size:2.5vw;
 }
 
 @media only screen and (max-width: 600px){
