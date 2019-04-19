@@ -25,23 +25,18 @@ html, body{
 
 .container{
   color:rgb(212 245 245);
-    //grid-row:2/3;
     min-height:100%;
     grid-column:2/2;
 
 }
 .row{
   font-family: 'Montserrat', sans-serif;
-  //grid-row: 1/3;
   flex-wrap:wrap;
   color:rgb(212 245 245);
   margin-top:50px;
   background-color:rgb(32 32 48) ;
-  //border-radius: 10px;
   padding:15px;
   font-size:140%;
-    //grid-column:3/3;
-
 
 
 }
@@ -57,9 +52,6 @@ input{
   text-align:center;
   grid-column:
 
-
-
-
 }
 
 .title-container{
@@ -67,45 +59,7 @@ input{
 color:rgb(212 245 245);
   padding-left: 30px;
   margin-bottom: 5px;
-  //border-radius: 0px 0px 25px 35px;
   grid-row: 1;
   grid-column:1/5;
   background-color:rgb(46 107 149);
-  //border-radius:10px,10px, 10px, 10px;
-
-
 }
-/*.App {
-  text-align: center;
-}
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-*/
