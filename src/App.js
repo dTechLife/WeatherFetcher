@@ -61,12 +61,12 @@ class App extends React.Component{
         <div className="main">
           <div className="container">
             <div className="row">
-
               <div className="form-container">
                 <Form getWeather={this.getWeather}/>
               </div>
+            </div>
 
-              <div className="row">
+            <div className="row" className="queryText">
                 <Weather
                   temperature={this.state.temperature}
                   city={this.state.city}
@@ -75,11 +75,9 @@ class App extends React.Component{
                   description={this.state.description}
                   error={this.state.error}
                 />
-                </div>
-              </div>
-              </div>
             </div>
-
+          </div>
+        </div>
       </div>
     );
   }
