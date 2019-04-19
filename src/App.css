@@ -53,6 +53,7 @@ input{
 
 .title-container{
   font-family: 'Montserrat', sans-serif;
+  min-height: 100px;
 color:rgb(212 245 245);
   padding-left: 30px;
   margin-bottom: 5px;
