@@ -1,3 +1,8 @@
+See LIVE at :https://weatherfetcher.herokuapp.com/
+
+TODO: if not celcius, do conversion for fahrenheit.
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
